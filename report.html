@@ -3,116 +3,100 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>LandCare Property Assessment Report</title>
+  <title>Report an Issue | LandCare</title>
 
-  <meta name="description" content="LandCare Property Assessment Report provides clear, documented, and actionable insights into land and property status, document verification, and risk indicators." />
+  <meta name="description" content="Report any land, property, service, or documentation issue to LandCare. Submit your concern securely and our team will review it." />
 
   <style>
     body {
       font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
       background: #ffffff;
       color: #1f2937;
-      line-height: 1.6;
       margin: 0;
       padding: 0;
+      line-height: 1.6;
     }
 
     .container {
-      max-width: 960px;
+      max-width: 900px;
       margin: auto;
       padding: 40px 20px;
     }
 
-    h1, h2, h3 {
+    h1, h2 {
       color: #111827;
-      line-height: 1.3;
     }
 
     h1 {
-      font-size: 2.2rem;
+      font-size: 2.1rem;
       margin-bottom: 10px;
-    }
-
-    h2 {
-      font-size: 1.6rem;
-      margin-top: 40px;
-      margin-bottom: 15px;
-    }
-
-    h3 {
-      font-size: 1.1rem;
-      margin-bottom: 8px;
     }
 
     p {
       margin-bottom: 15px;
     }
 
-    ul {
-      padding-left: 20px;
-      margin-bottom: 20px;
-    }
-
-    li {
-      margin-bottom: 8px;
-    }
-
-    .subheading {
-      font-size: 1.05rem;
+    .intro {
       color: #374151;
       margin-bottom: 30px;
     }
 
-    .box {
+    form {
       background: #f9fafb;
-      border-left: 4px solid #2563eb;
-      padding: 20px;
-      margin: 25px 0;
+      padding: 30px;
+      border-radius: 6px;
+      border: 1px solid #e5e7eb;
     }
 
-    .trust-box {
-      background: #f3f4f6;
-      border-left: 4px solid #10b981;
-      padding: 20px;
-      margin: 30px 0;
+    label {
+      display: block;
+      font-weight: 600;
+      margin-bottom: 6px;
+      margin-top: 20px;
+    }
+
+    input, select, textarea {
+      width: 100%;
+      padding: 12px;
+      border-radius: 4px;
+      border: 1px solid #d1d5db;
       font-size: 0.95rem;
     }
 
-    .cta {
+    textarea {
+      min-height: 120px;
+      resize: vertical;
+    }
+
+    button {
+      margin-top: 25px;
       background: #111827;
       color: #ffffff;
-      padding: 30px;
-      margin-top: 50px;
-      border-radius: 6px;
-    }
-
-    .cta h2 {
-      color: #ffffff;
-      margin-top: 0;
-    }
-
-    .cta p {
-      color: #d1d5db;
-    }
-
-    .cta a {
-      display: inline-block;
-      margin-top: 15px;
-      background: #2563eb;
-      color: #ffffff;
-      padding: 12px 20px;
-      text-decoration: none;
-      border-radius: 4px;
+      border: none;
+      padding: 14px 22px;
+      font-size: 1rem;
       font-weight: 600;
+      border-radius: 4px;
+      cursor: pointer;
     }
 
-    .cta a:hover {
-      background: #1e40af;
+    button:hover {
+      background: #1f2937;
     }
 
-    .meta {
+    .note {
+      background: #f3f4f6;
+      border-left: 4px solid #2563eb;
+      padding: 20px;
+      margin-top: 40px;
+      font-size: 0.95rem;
+      color: #374151;
+    }
+
+    .trust {
       font-size: 0.9rem;
       color: #6b7280;
+      margin-top: 20px;
     }
   </style>
 </head>
@@ -121,110 +105,59 @@
   <main class="container">
 
     <header>
-      <h1>LandCare Property Assessment Report</h1>
-      <p class="subheading">Clear • Documented • Actionable Property Insights</p>
+      <h1>Report an Issue</h1>
+      <p class="intro">
+        If you have identified any issue related to land, property, documentation,
+        service experience, or website functionality, please report it here.
+        Your submission helps us review and improve.
+      </p>
     </header>
 
     <section>
-      <h2>What This Report Is</h2>
-      <p>
-        The LandCare Property Assessment Report is a professionally prepared
-        document designed to help you understand the <strong>legal, technical,
-        and practical status</strong> of your land or property before making
-        important decisions.
-      </p>
+      <form action="#" method="post">
 
-      <p>
-        This report is especially useful for buyers, sellers, landowners,
-        and families who want clarity without confusion or assumptions.
-      </p>
+        <label for="name">Your Name</label>
+        <input type="text" id="name" name="name" placeholder="Enter your full name" required />
+
+        <label for="contact">Contact Number / Email</label>
+        <input type="text" id="contact" name="contact" placeholder="Phone number or email" required />
+
+        <label for="issueType">Issue Category</label>
+        <select id="issueType" name="issueType" required>
+          <option value="">Select an issue type</option>
+          <option value="property">Property / Land Issue</option>
+          <option value="documentation">Documentation Concern</option>
+          <option value="service">Service Experience</option>
+          <option value="payment">Payment / Billing</option>
+          <option value="website">Website / Technical Issue</option>
+          <option value="other">Other</option>
+        </select>
+
+        <label for="details">Issue Details</label>
+        <textarea id="details" name="details" placeholder="Describe the issue clearly, including any relevant details" required></textarea>
+
+        <label for="reference">Reference ID (if any)</label>
+        <input type="text" id="reference" name="reference" placeholder="Case ID / Property reference (optional)" />
+
+        <label for="files">Supporting Documents (optional)</label>
+        <input type="file" id="files" name="files" />
+
+        <button type="submit">Submit Issue</button>
+
+      </form>
     </section>
 
-    <section>
-      <h2>Who This Report Is For</h2>
-      <ul>
-        <li>Property buyers and sellers</li>
-        <li>Landowners facing disputes or uncertainty</li>
-        <li>Individuals verifying property documents</li>
-        <li>Families planning inheritance or transfers</li>
-      </ul>
+    <section class="note">
+      <strong>Please Note:</strong><br />
+      Submitting an issue does not constitute a legal claim or guarantee resolution.
+      Each issue is reviewed on a case-by-case basis, and our team may contact you
+      for additional clarification if required.
     </section>
 
-    <section>
-      <h2>What the Report Covers</h2>
-
-      <h3>1. Property Overview</h3>
-      <ul>
-        <li>Property identification details</li>
-        <li>Location and boundary references (as per records)</li>
-        <li>Property type classification</li>
-      </ul>
-
-      <h3>2. Document Review Summary</h3>
-      <ul>
-        <li>Title deed / sale deed verification</li>
-        <li>Encumbrance Certificate (EC) review</li>
-        <li>Registration and agreement consistency check</li>
-        <li>Identification of missing or mismatched documents</li>
-      </ul>
-
-      <h3>3. Risk & Issue Indicators</h3>
-      <ul>
-        <li>Ownership clarity status</li>
-        <li>Dispute or claim indicators (if observed)</li>
-        <li>Boundary or survey inconsistencies</li>
-        <li>Red flags requiring legal attention</li>
-      </ul>
-
-      <h3>4. Practical Observations</h3>
-      <ul>
-        <li>Ground reality vs document alignment</li>
-        <li>Usability insights (buy / sell / hold)</li>
-        <li>Common risks often overlooked</li>
-      </ul>
-
-      <h3>5. Recommendations</h3>
-      <ul>
-        <li>Immediate next steps</li>
-        <li>Whether legal consultation is advisable</li>
-        <li>Document correction guidance</li>
-        <li>Risk mitigation suggestions</li>
-      </ul>
-    </section>
-
-    <section class="box">
-      <h2>Report Format & Delivery</h2>
-      <ul>
-        <li>Written and structured PDF report</li>
-        <li>Clear, non-technical language</li>
-        <li>Evidence-based observations</li>
-        <li>Confidential and client-specific</li>
-      </ul>
-      <p class="meta">
-        Typical delivery time: <strong>3–7 working days</strong>, depending on
-        case complexity.
-      </p>
-    </section>
-
-    <section class="trust-box">
-      <strong>Important Note:</strong><br />
-      LandCare does not provide legal judgments or verdicts.
-      This report is intended to help you clearly understand the situation
-      so you can make informed decisions or consult legal professionals
-      confidently.
-    </section>
-
-    <section class="cta">
-      <h2>Need a Property or Land Assessment Report?</h2>
-      <p>
-        Request a confidential consultation to understand your case,
-        required documents, and next steps — with no pressure or obligation.
-      </p>
-      <a href="#contact">Request a Report Consultation</a>
-      <p class="meta">
-        WhatsApp consultation available • Document checklist shared upfront
-      </p>
-    </section>
+    <p class="trust">
+      All submissions are handled confidentially and used only for review and
+      resolution purposes.
+    </p>
 
   </main>
 
