@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+
+# Block non-public or system paths if ever added
+Disallow: /css/
+Disallow: /js/
+
+Sitemap: https://www.landcare.co.in/sitemap.xml
