@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Report an Issue | LandCare</title>
 
-  <meta name="description" content="Report any land, property, service, or documentation issue to LandCare. Submit your concern securely and our team will review it." />
+  <meta name="description" content="Report inaccuracies, discrepancies, or concerns related to land, property information, or services listed on LandCare." />
 
   <style>
     body {
@@ -25,6 +25,7 @@
 
     h1, h2 {
       color: #111827;
+      line-height: 1.3;
     }
 
     h1 {
@@ -34,66 +35,52 @@
 
     p {
       margin-bottom: 15px;
-    }
-
-    .intro {
       color: #374151;
-      margin-bottom: 30px;
     }
 
-    form {
+    ul {
+      padding-left: 20px;
+      margin-bottom: 25px;
+    }
+
+    li {
+      margin-bottom: 8px;
+    }
+
+    .info-box {
       background: #f9fafb;
-      padding: 30px;
-      border-radius: 6px;
-      border: 1px solid #e5e7eb;
-    }
-
-    label {
-      display: block;
-      font-weight: 600;
-      margin-bottom: 6px;
-      margin-top: 20px;
-    }
-
-    input, select, textarea {
-      width: 100%;
-      padding: 12px;
-      border-radius: 4px;
-      border: 1px solid #d1d5db;
-      font-size: 0.95rem;
-    }
-
-    textarea {
-      min-height: 120px;
-      resize: vertical;
-    }
-
-    button {
-      margin-top: 25px;
-      background: #111827;
-      color: #ffffff;
-      border: none;
-      padding: 14px 22px;
-      font-size: 1rem;
-      font-weight: 600;
-      border-radius: 4px;
-      cursor: pointer;
-    }
-
-    button:hover {
-      background: #1f2937;
-    }
-
-    .note {
-      background: #f3f4f6;
       border-left: 4px solid #2563eb;
       padding: 20px;
-      margin-top: 40px;
-      font-size: 0.95rem;
-      color: #374151;
+      margin: 30px 0;
     }
 
-    .trust {
+    .note-box {
+      background: #f3f4f6;
+      border-left: 4px solid #10b981;
+      padding: 20px;
+      margin: 30px 0;
+      font-size: 0.95rem;
+    }
+
+    .contact-box {
+      background: #111827;
+      color: #ffffff;
+      padding: 30px;
+      margin-top: 40px;
+      border-radius: 6px;
+    }
+
+    .contact-box p {
+      color: #d1d5db;
+    }
+
+    .contact-box a {
+      color: #ffffff;
+      font-weight: 600;
+      text-decoration: underline;
+    }
+
+    .meta {
       font-size: 0.9rem;
       color: #6b7280;
       margin-top: 20px;
@@ -106,57 +93,71 @@
 
     <header>
       <h1>Report an Issue</h1>
-      <p class="intro">
-        If you have identified any issue related to land, property, documentation,
-        service experience, or website functionality, please report it here.
-        Your submission helps us review and improve.
+      <p>
+        LandCare aims to present property and land-related information
+        responsibly. If you notice an inaccuracy, discrepancy, or concern,
+        you may report it for review.
       </p>
     </header>
 
     <section>
-      <form action="#" method="post">
-
-        <label for="name">Your Name</label>
-        <input type="text" id="name" name="name" placeholder="Enter your full name" required />
-
-        <label for="contact">Contact Number / Email</label>
-        <input type="text" id="contact" name="contact" placeholder="Phone number or email" required />
-
-        <label for="issueType">Issue Category</label>
-        <select id="issueType" name="issueType" required>
-          <option value="">Select an issue type</option>
-          <option value="property">Property / Land Issue</option>
-          <option value="documentation">Documentation Concern</option>
-          <option value="service">Service Experience</option>
-          <option value="payment">Payment / Billing</option>
-          <option value="website">Website / Technical Issue</option>
-          <option value="other">Other</option>
-        </select>
-
-        <label for="details">Issue Details</label>
-        <textarea id="details" name="details" placeholder="Describe the issue clearly, including any relevant details" required></textarea>
-
-        <label for="reference">Reference ID (if any)</label>
-        <input type="text" id="reference" name="reference" placeholder="Case ID / Property reference (optional)" />
-
-        <label for="files">Supporting Documents (optional)</label>
-        <input type="file" id="files" name="files" />
-
-        <button type="submit">Submit Issue</button>
-
-      </form>
+      <h2>What Can Be Reported</h2>
+      <ul>
+        <li>Incorrect or outdated property information</li>
+        <li>Document-related inconsistencies</li>
+        <li>Boundary or location mismatches</li>
+        <li>Service-related concerns</li>
+        <li>Website content or technical issues</li>
+      </ul>
     </section>
 
-    <section class="note">
-      <strong>Please Note:</strong><br />
-      Submitting an issue does not constitute a legal claim or guarantee resolution.
-      Each issue is reviewed on a case-by-case basis, and our team may contact you
-      for additional clarification if required.
+    <section class="info-box">
+      <h2>How LandCare Handles Reported Issues</h2>
+      <p>
+        Reported issues are reviewed internally to assess whether the
+        information requires correction, clarification, or removal.
+      </p>
+      <p>
+        LandCare may rely on publicly available records, client-provided
+        documents, or third-party sources while reviewing reported concerns.
+      </p>
     </section>
 
-    <p class="trust">
-      All submissions are handled confidentially and used only for review and
-      resolution purposes.
+    <section>
+      <h2>What This Page Is Not</h2>
+      <ul>
+        <li>Not a legal complaint or dispute resolution platform</li>
+        <li>Not a substitute for legal or government verification</li>
+        <li>Not a guarantee of correction or outcome</li>
+      </ul>
+    </section>
+
+    <section class="note-box">
+      <strong>Important:</strong><br />
+      LandCare does not make ownership determinations or legal judgments.
+      Users are advised to consult qualified legal or government authorities
+      for official verification or dispute resolution.
+    </section>
+
+    <section class="contact-box">
+      <h2>How to Report an Issue</h2>
+      <p>
+        To report an issue, please contact our support team with relevant
+        details and references.
+      </p>
+      <p>
+        📧 Email: <a href="mailto:consultlandcare@gmail.com">consultlandcare@gmail.com</a><br />
+        
+      </p>
+      <p class="meta">
+        Please include property references or document identifiers, if available,
+        to help us review the issue efficiently.
+      </p>
+    </section>
+
+    <p class="meta">
+      All communications are handled confidentially and used solely for review
+      and quality improvement purposes.
     </p>
 
   </main>
