@@ -371,12 +371,24 @@ footer{
 }
 .footer-link:hover{color:#f97316}
 
+.social-icons {
+  display: flex;
+  gap: 16px;
+  margin-top: 18px;
+}
+
+.social-icons img {
+  width: 32px;
+  height: 32px;
+}
+
 .footer-bottom{
   background:#f3f4f6;
   padding:18px;
   text-align:center;
   font-size:14px;
 }
+
 
 
 
