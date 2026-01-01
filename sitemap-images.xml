@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+  xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+
+  <!-- About -->
+  <url>
+    <loc>https://www.landcare.co.in/index.html#about/</loc>
+    <image:image>
+      <image:loc>https://www.landcare.in/assets/images/LandCare.webp</image:loc>
+      <image:title>LandCare Property Legal Services</image:title>
+    </image:image>
+  </url>
+
+  <!-- Property Disputes -->
+  <url>
+    <loc>https://www.landcare.co.in/property</loc>
+    <image:image>
+      <image:loc>https://www.landcare.in/assets/images/services/property-disputes.jpg</image:loc>
+      <image:title>Property Dispute Resolution</image:title>
+    </image:image>
+  </url>
+
+  <!-- Buy / Sell -->
+  <url>
+    <loc>https://www.landcare.in/buy-sell</loc>
+    <image:image>
+      <image:loc>https://www.landcare.in/assets/images/services/buy-sell-land.jpg</image:loc>
+      <image:title>Buy and Sell Land Verification</image:title>
+    </image:image>
+  </url>
+
+  <!-- Land Documents -->
+  <url>
+    <loc>https://www.landcare.in/land-documents</loc>
+    <image:image>
+      <image:loc>https://www.landcare.in/assets/images/services/land-documents.jpg</image:loc>
+      <image:title>Land Document Verification</image:title>
+    </image:image>
+  </url>
+
+  <!-- Land Documents -->
+  <url>
+    <loc>https://www.landcare.in/land-documents</loc>
+    <image:image>
+      <image:loc>https://www.landcare.in/assets/images/services/land-documents.jpg</image:loc>
+      <image:title>Land Document Verification</image:title>
+    </image:image>
+  </url>
+
+</urlset>
