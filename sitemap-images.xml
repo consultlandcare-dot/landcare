@@ -7,7 +7,7 @@
   <url>
     <loc>https://www.landcare.co.in/index.html#about/</loc>
     <image:image>
-      <image:loc>https://www.landcare.in/assets/images/LandCare.webp</image:loc>
+      <image:loc>https://www.landcare.co.in/assets/images/LandCare.webp</image:loc>
       <image:title>LandCare Property Legal Services</image:title>
     </image:image>
   </url>
@@ -16,34 +16,34 @@
   <url>
     <loc>https://www.landcare.co.in/property</loc>
     <image:image>
-      <image:loc>https://www.landcare.in/assets/images/services/property-disputes.jpg</image:loc>
+      <image:loc>https://www.landcare.co.in/assets/images/property.webp</image:loc>
       <image:title>Property Dispute Resolution</image:title>
     </image:image>
   </url>
 
   <!-- Buy / Sell -->
   <url>
-    <loc>https://www.landcare.in/buy-sell</loc>
+    <loc>https://www.landcare.co.in/buysell</loc>
     <image:image>
-      <image:loc>https://www.landcare.in/assets/images/services/buy-sell-land.jpg</image:loc>
+      <image:loc>https://www.landcare.co.in/assets/images/buysell.webp</image:loc>
       <image:title>Buy and Sell Land Verification</image:title>
     </image:image>
   </url>
 
   <!-- Land Documents -->
   <url>
-    <loc>https://www.landcare.in/land-documents</loc>
+    <loc>https://www.landcare.co.in/land-documents</loc>
     <image:image>
-      <image:loc>https://www.landcare.in/assets/images/services/land-documents.jpg</image:loc>
+      <image:loc>https://www.landcare.co.in/assets/images/land.webp</image:loc>
       <image:title>Land Document Verification</image:title>
     </image:image>
   </url>
 
-  <!-- Land Documents -->
+  <!-- Finance and Loans -->
   <url>
-    <loc>https://www.landcare.in/land-documents</loc>
+    <loc>https://www.landcare.co.in/finance</loc>
     <image:image>
-      <image:loc>https://www.landcare.in/assets/images/services/land-documents.jpg</image:loc>
+      <image:loc>https://www.landcare.co.in/assets/images/finance.webp</image:loc>
       <image:title>Land Document Verification</image:title>
     </image:image>
   </url>
