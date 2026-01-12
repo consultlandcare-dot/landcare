@@ -391,18 +391,61 @@ footer{
 
 
 
-.work-card {
-  background: #ffffff;              /* card shell */
-  border-radius: 28px;
-  box-shadow: 0 12px 32px rgba(0,0,0,0.08);
-  perspective: 1000px;
-  height: 520px;
+.how-it-works {
+  max-width: 900px;
+  margin: 60px auto;
+  padding: 0 20px;
 }
 
-.work{
-  padding:120px 6vw 60px;
-  gap:30px;
+.how-it-works h2 {
+  font-size: 2rem;
+  margin-bottom: 25px;
+  color: #111827;
 }
+
+.how-card {
+  background: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 10px;
+  padding: 30px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.04);
+}
+
+.step {
+  display: flex;
+  align-items: flex-start;
+  gap: 16px;
+  padding: 18px 0;
+}
+
+.step:not(:last-child) {
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.step-number {
+  min-width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  background: #111827;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+  font-size: 0.95rem;
+}
+
+.step p {
+  margin: 0;
+  color: #374151;
+  line-height: 1.6;
+}
+
+.step strong {
+  color: #111827;
+}
+
+
 
 
 
