@@ -391,6 +391,22 @@ footer{
 
 
 
+.work-card {
+  background: #ffffff;              /* card shell */
+  border-radius: 28px;
+  box-shadow: 0 12px 32px rgba(0,0,0,0.08);
+  perspective: 1000px;
+  height: 520px;
+}
+
+.work{
+  padding:120px 6vw 60px;
+  gap:30px;
+}
+
+
+
+
 
 
 
