@@ -41,10 +41,10 @@
 
   <!-- Finance and Loans -->
   <url>
-    <loc>https://www.landcare.co.in/finance</loc>
+    <loc>https://www.landcare.co.in/nriservices</loc>
     <image:image>
-      <image:loc>https://www.landcare.co.in/assets/images/finance.webp</image:loc>
-      <image:title>Land Document Verification</image:title>
+      <image:loc>https://www.landcare.co.in/assets/images/fnri.webp</image:loc>
+      <image:title>NRI Support</image:title>
     </image:image>
   </url>
 
